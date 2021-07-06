@@ -2,6 +2,11 @@
 This repository contains code that I wrote to understand the fuzzywuzzy. 
 Compared the different scorer and tried to figue out use cases of the library.
  
+## How to run
+
+1. Run ```pip install -r requirements.txt``` in terminal
+2. Execute ```python main.py``` 
+
 The main file has two functions 
 - one that loop over all the words in the list to find the closest match
 - the over uses process to extract the closest match
