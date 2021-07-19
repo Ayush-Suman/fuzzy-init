@@ -5,8 +5,8 @@ from openpyxl import load_workbook
 
 
 def excel():
-    filename = sys.argv[0]
-    filename2 = sys.argv[1]
+    filename = sys.argv[1]
+    filename2 = sys.argv[2]
 
     std_workbook = load_workbook(filename=filename, read_only=True)
     workbook = load_workbook(filename=filename2, read_only=True)
@@ -96,3 +96,4 @@ if __name__ == "__main__":
     print(closest)
     closest = loop_over_for_max_score()
     print(closest)
+    excel()
